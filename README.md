@@ -1,6 +1,25 @@
 # 🚀 GraphQL Task Management Backend
 
-A production-grade backend system built using GraphQL, Node.js, and PostgreSQL that implements a complete task lifecycle with role-based access control and approval workflows.
+A production-grade backend system that simulates real-world task workflows with role-based access control and approval pipelines.
+
+Unlike basic CRUD apps, this system enforces strict task lifecycle transitions:
+
+PENDING → IN_PROGRESS → COMPLETION_REQUESTED → COMPLETED / REJECTED
+
+Built with GraphQL, PostgreSQL, and Prisma, focusing on backend architecture and business logic design.
+
+---
+
+## 🎯 Problem Solved
+
+Most task management systems are simple CRUD applications.
+
+This project solves:
+
+- Controlled task lifecycle management
+- Approval-based workflows
+- Role-based authorization
+- Preventing invalid state transitions
 
 ---
 
@@ -39,6 +58,18 @@ A production-grade backend system built using GraphQL, Node.js, and PostgreSQL t
 
 - Prisma for relational data modeling
 - Middleware for request-level validation
+
+---
+
+## 🧪 API Testing
+
+Use Postman collection included in repo:
+
+- Login
+- Assign task
+- Start task
+- Request completion
+- Approve / Reject
 
 ---
 
@@ -130,6 +161,16 @@ node src/index.js
 (Record Loom video and paste link here)
 
 --- -->
+
+## 🧠 Engineering Highlights
+
+- Context-based authentication using cookies
+- Separation of concerns (Resolvers, Middleware, Context)
+- Prisma relational schema design
+- Duplicate request prevention logic
+- State-driven workflow implementation
+
+---
 
 ## 👨‍💻 Author
 
