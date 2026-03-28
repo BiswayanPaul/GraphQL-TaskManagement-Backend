@@ -88,26 +88,26 @@ mutation {
 git clone <repo-url>
 ```
 
-2. Install dependencies
+1. Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Create `.env`
+1. Create `.env`
 
 ```env
 DATABASE_URL=your_db_url
 JWT_SECRET=your_secret
 ```
 
-4. Run database
+1. Run database
 
 ```bash
 npx prisma db push
 ```
 
-5. Start server
+1. Start server
 
 ```bash
 node src/index.js
