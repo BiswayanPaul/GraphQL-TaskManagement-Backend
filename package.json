@@ -1,0 +1,24 @@
+{
+  "name": "todo_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.13.0",
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "graphql": "^16.13.2",
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^5.22.0"
+  }
+}
