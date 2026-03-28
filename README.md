@@ -125,11 +125,11 @@ node src/index.js
 
 ---
 
-## 🎥 Demo
+<!-- ## 🎥 Demo
 
 (Record Loom video and paste link here)
 
----
+--- -->
 
 ## 👨‍💻 Author
 
